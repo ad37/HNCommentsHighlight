@@ -12,5 +12,9 @@ found, it is marked as new (highlighted in the page) and added to the persistenc
 
 - 'Clear all': clears the persistence of all threads.
 
+-- Install
+Rename to hncomments.user.js. 
+Open with Firefox / Chrome.
+
 -- Privacy
 Everything is stored locally.
