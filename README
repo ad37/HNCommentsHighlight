@@ -1,0 +1,16 @@
+---- Highlight new comments on an HN thread since your last checkpoint.
+
+This is a GreaseMonkey js script whose content is injected into HN comments threads only.
+
+-- Features
+Adds the following buttons below the 'add comment' zone:
+
+- 'Track comments': each comment is md5 hashed and looked up in the GreaseMonkey KV store of this thread. If not
+found, it is marked as new (highlighted in the page) and added to the persistence.
+
+- 'Clear current': clears the persistence of the current thread.
+
+- 'Clear all': clears the persistence of all threads.
+
+-- Privacy
+Everything is stored locally.
